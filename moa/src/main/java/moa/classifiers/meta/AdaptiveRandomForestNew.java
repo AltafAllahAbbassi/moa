@@ -123,6 +123,7 @@ public class AdaptiveRandomForestNew extends AbstractClassifier implements Multi
                     this.ensemble[i].trainOnInstance(instance, k, this.instancesSeen);
                 }
             }
+
         }
         if (this.executor != null) {
             try {
